@@ -37,7 +37,7 @@ export const CTA = () => {
                             className="xl:!text-6xl lg:!text-left lg:!text-5xl !text-center md:!text-6xl sm:!text-5xl !text-4xl"
                         />
                         <p className="my-4 md:text-base font-medium sm:text-sm text-xs text-justify">
-                            Hi, I'm a passionate web developer with expertise in Next.js and the MERN stack. I've worked on multiple small-scale projects with my university fellows, building full-stack web applications and even cloning a mobile application. Beyond web development, I have a strong interest in Generative AI and Machine Learning. Currently, I'm working on my final year project, where Python and FastAPI have become my go-to technologies. I love solving complex problems, optimizing performance, and staying up-to-date with the latest tech trends. Excited about innovation, open-source contributions, and building impactful digital experiences!
+                            Hi, I&apos;m a passionate web developer with expertise in Next.js and the MERN stack. I&apos;ve worked on multiple small-scale projects with my university fellows, building full-stack web applications and even cloning a mobile application. Beyond web development, I have a strong interest in Generative AI and Machine Learning. Currently, I&apos;m working on my final year project, where Python and FastAPI have become my go-to technologies. I love solving complex problems, optimizing performance, and staying up-to-date with the latest tech trends. Excited about innovation, open-source contributions, and building impactful digital experiences!
                         </p>
                         <div className="flex items-center lg:self-start mt-2 self-center">
                             <Link
@@ -55,7 +55,7 @@ export const CTA = () => {
                                 <LuExternalLink size={20} />
                             </Link>
                             <Link
-                                href="mailto:anasfida89@gmail.com"
+                                href="mailto:anasfida00@gmail.com"
                                 target={"_blank"}
                                 className="ml-4 md:text-lg font-medium underline capitalize text-dark dark:text-light text-base"
                             >
