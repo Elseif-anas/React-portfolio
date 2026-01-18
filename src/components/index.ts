@@ -1,4 +1,5 @@
 export { AnimatedText } from "./AnimatedText";
+export { Certifications } from "./Certifications";
 export { Education } from "./Education";
 export { Experience } from "./Experience";
 export {

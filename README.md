@@ -1,4 +1,4 @@
-# 🚀 Modern Portfolio Website
+# 🚀 Anas Fida - Portfolio Website
 
 <div align="center">
 
@@ -8,24 +8,21 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=for-the-badge&logo=tailwind-css)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-10.18-0055ff?style=for-the-badge&logo=framer)
 
-**A stunning, modern portfolio website built with Next.js 14, featuring smooth animations, dark mode, and a beautiful UI/UX.**
+**Personal portfolio showcasing web development projects, skills, and experience. Built with Next.js 14, TypeScript, and modern web technologies.**
 
-[🌐 Live Demo](https://junaidalibhatti.vercel.app/) • [📖 Documentation](#-getting-started) • [🐛 Report Bug](https://github.com/junaid-1013/JunaidPortfolio/issues) • [💡 Request Feature](https://github.com/junaid-1013/JunaidPortfolio/issues)
-
-[![GitHub stars](https://img.shields.io/github/stars/junaid-1013/JunaidPortfolio?style=social)](https://github.com/junaid-1013/JunaidPortfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/junaid-1013/JunaidPortfolio?style=social)](https://github.com/junaid-1013/JunaidPortfolio/network/members)
+[📧 Contact](mailto:anasfida00@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/anas-fida-3958131b1) • [🐙 GitHub](https://github.com/Elseif-anas)
 
 </div>
 
 ---
 
-## 📸 Preview
+## 📸 About
 
 <div align="center">
 
-**Visit the live demo to see the portfolio in action:** [https://junaidalibhatti.vercel.app/](https://junaidalibhatti.vercel.app/)
+**Hi, I'm Anas Fida** - A passionate web developer specializing in Next.js and the MERN stack. I build modern, scalable web applications with a focus on clean code and great user experiences.
 
-*The portfolio features a modern design with smooth animations, interactive elements, and a fully responsive layout that works beautifully on all devices.*
+*This portfolio showcases my projects, technical skills, and professional experience in full-stack web development.*
 
 </div>
 
@@ -118,33 +115,27 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. **Fork the repository**
+1. **Clone the repository**
    ```bash
-   # Click the Fork button on GitHub, or use:
-   gh repo fork junaid-1013/JunaidPortfolio
+   git clone https://github.com/Elseif-anas/AnasPortfolio.git
+   cd AnasPortfolio
    ```
 
-2. **Clone your forked repository**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/JunaidPortfolio.git
-   cd JunaidPortfolio
-   ```
-
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    npm install
    # or
    yarn install
    ```
 
-4. **Run the development server**
+3. **Run the development server**
    ```bash
    npm run dev
    # or
    yarn dev
    ```
 
-5. **Open your browser**
+4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000) to see your portfolio.
 
 ---
@@ -219,7 +210,7 @@ This is a standard Next.js application and can be deployed to any platform that 
 ## 📁 Project Structure
 
 ```
-JunaidPortfolio/
+AnasPortfolio/
 ├── public/
 │   ├── images/          # Images (profile, projects, skills)
 │   └── svgs/            # SVG assets
@@ -290,12 +281,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👤 Author
 
-**Junaid Ali Bhatti**
+## 👤 Author
 
-- Portfolio: [https://junaidalibhatti.vercel.app/](https://junaidalibhatti.vercel.app/)
-- GitHub: [@junaid-1013](https://github.com/junaid-1013)
-- LinkedIn: [Junaid Ali](https://www.linkedin.com/in/junaid-ali-34b680243/)
-- Instagram: [@junaid.ali1014](https://www.instagram.com/junaid.ali1014/)
+**Anas Fida**
+
+- GitHub: [@Elseif-anas](https://github.com/Elseif-anas)
+- LinkedIn: [Anas Fida](https://linkedin.com/in/anas-fida-3958131b1)
+- Email: anasfida89@gmail.com
 
 ---
 
@@ -325,6 +317,6 @@ I've put a lot of love and effort into building this portfolio, and I'm excited 
 
 **⭐ If you found this project helpful, please consider giving it a star! ⭐**
 
-Made with ❤️ by [Junaid Ali Bhatti](https://github.com/junaid-1013)
+Made with ❤️ by [Anas Fida](https://github.com/Elseif-anas)
 
 </div>

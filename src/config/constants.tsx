@@ -5,69 +5,52 @@ import { LuGraduationCap } from "react-icons/lu";
 import { ExperienceProps, SocialLinksType } from "./types";
 export const FEATURED_PROJECTS = [
   {
-    title: "Crop Sight",
-    img: "/images/projects/crop-sight.png",
+    title: "LangGraph Model",
+    img: "/images/projects/langraph.png",
     summary:
-      "Crop Sight optimizes crop monitoring, improves yields, and minimizes seed and fertilizer expenses through precision farming, satellite data, machine learning.",
-    link: "https://smartaisolutions.net/",
-    github: "https://github.com/junaid-1013",
-    tech: ["NextJs", "Django", "Python", "GEE", "Typescript", "Javacript"],
+      "A minimal 'hello world' project that demonstrates how to wire LangGraph to Neo4j using a 3-node agent architecture. Perfect as a learning scaffold for building more complex graph-based AI systems.",
+    link: "https://github.com/Elseif-anas/LangGraph_model.git",
+    github: "https://github.com/Elseif-anas/LangGraph_model.git",
+    tech: ["LangGraph", "Neo4j", "Docker", "GPT-4o-mini"],
   },
   {
-    title: "NFT Arena",
-    img: "/images/projects/nftArena.png",
+    title: "OPTP",
+    img: "/images/projects/optp.jpg",
     summary:
-      "an NFT marketplace built with Nextjs & Ethereum, empowering creators & collectors in the digital renaissance.",
-    link: "https://my-nft-arena.vercel.app/",
-    github: "https://github.com/junaid-1013/NFT-Arena",
-    tech: ["NextJs", "Typescript", "Metamask", "Ethereum", "Cloudinary", "IPFS"],
+      "OPTP is a cross-platform mobile application designed to deliver a seamless, location-aware user experience. The app focuses on performance, scalability, and real-time data handling, with smooth navigation and state management across platforms. It integrates mapping functionality to provide accurate location-based features and is built with a modern, production-ready architecture.",
+    link: "https://github.com/Elseif-anas/optp-clone.git",
+    github: "https://github.com/Elseif-anas/optp-clone.git",
+    tech: ["React Native", "Context API", "Supabase", "Google Maps API"],
   },
   {
-    title: "Symptoms Sense",
-    img: "/images/projects/symptomsSense.png",
+    title: "PhysioIntel",
+    img: "/images/projects/physionintel.png",
     summary:
-      "Our Disease Prediction System uses medical data to personalize your health journey, with AI insights and easy doctor appointment booking for a proactive approach to health.",
-    link: "https://symptoms-sense.vercel.app/",
-    github: "https://github.com/junaid-1013",
-    tech: ["NextJs", "LangChain", "OpenAI", "Pinecone", "Typescript", "Cloudinary"],
+      "PhysioIntel is my FYP project AI-assisted medical application focused on physiotherapy and orthopedic care. The platform enables secure patient data collection, structured medical history management, and intelligent summarization to support doctors in clinical decision-making. It is designed for scalability, data security, and real-world healthcare workflows.",
+    link: "https://github.com/savagevampire2003/PhysioIntel-FYP-I.git",
+    github: "https://github.com/savagevampire2003/PhysioIntel-FYP-I.git",
+    tech: ["React", "FastAPI", "Supabase", "AI/LLM Integration"],
   },
   {
-    title: "TEDx COMSATS",
-    img: "/images/projects/tedx.png",
+    title: "RentPerth",
+    img: "/images/projects/rentperth.png",
     summary:
-      "TEDxCOMSATS, built with NEXT.js 14 and TypeScript! This website brings the magic of TED Talks to Lahore, Pakistan, hosting inspiring speakers and sparking ideas worth spreading.",
-    link: "https://tedxcomsatslhr.vercel.app/",
-    github: "https://github.com/junaid-1013",
-    tech: ["NextJs", "Typescript", "Framer Motion", "Tailwind"],
-  },
-  {
-    title: "Kidney Stone Detection",
-    img: "/images/projects/kidney_stone_detection.png",
-    summary:
-      "The system will utilize image processing and computer vision techniques to analyze the CT images. The extracted features will be used to train CNN & SVM, to classify the images into positive and Negative.",
-    link: "https://github.com/junaid-1013/Kidney-Stone-Detection",
-    github: "https://github.com/junaid-1013/Kidney-Stone-Detection",
-    tech: ["Python", "Gradio"],
-  },
-  {
-    title: "Shop Management System",
-    img: "/images/projects/shop_manag_system.png",
-    summary:
-      "Users can track inventory and sales records, create employees for product sales, and add,view, update, delete products. This system is developed in C# Windows Form with an MS SQL database.",
-    link: "https://github.com/junaid-1013/Shop-Management-System",
-    github: "https://github.com/junaid-1013/Shop-Management-System",
-    tech: ["C# Win Forms", "MS SQL"],
+      "RentPerth is a client project delivering a high-performance rental listing platform optimized for search visibility, speed, and lead conversion. The website was built with fully optimized SEO, fast load times, and integrated analytics to track user interactions and conversions, providing measurable business value.",
+    link: "https://rent-perth.com/",
+    github: "https://github.com/Elseif-anas/perth-student-pad.git",
+    tech: ["JavaScript", "Backend API", "Google Tag Manager", "Analytics", "SEO"],
   },
 ];
 export const NAV_LINKS = [
   { title: "Home", link: "/" },
   { title: "Skills", link: "#skills" },
+  { title: "Certifications", link: "#certifications" },
   { title: "Education", link: "#education" },
   { title: "Projects", link: "#projects" },
 ];
 export const SOCIAL_LINKS: SocialLinksType[] = [
-  { href: "https://github.com/junaid-1013", Icon: <IoLogoGithub size={25} /> },
-  { href: "https://www.linkedin.com/in/junaid-ali-bhatti-34b680243/", Icon: <BsLinkedin size={25} color="#0a66c2" /> },
+  { href: "https://github.com/Elseif-anas", Icon: <IoLogoGithub size={25} /> },
+  { href: "https://linkedin.com/in/anas-fida-3958131b1", Icon: <BsLinkedin size={25} color="#0a66c2" /> },
 ];
 export const SKILLS = [
   {
@@ -107,23 +90,6 @@ export const SKILLS = [
     title: "LangGraph"
   },
   {
-    img: "/images/skills/pinecone.png",
-    imgDark: "/images/skills/pinecone-white.png",
-    title: "Pinecone"
-  },
-  {
-    img: "/images/skills/tensorflow.svg",
-    title: "TensorFlow"
-  },
-  {
-    img: "/images/skills/pandas.png",
-    title: "Pandas"
-  },
-  {
-    img: "/images/skills/numpy.svg",
-    title: "Numpy"
-  },
-  {
     img: "/images/skills/postgresql.png",
     title: "PostgreSQL"
   },
@@ -134,14 +100,6 @@ export const SKILLS = [
   {
     img: "/images/skills/sql.png",
     title: "SQL"
-  },
-  {
-    img: "/images/skills/gee.png",
-    title: "GEE"
-  },
-  {
-    img: "/images/skills/sentinelHub.png",
-    title: "Sentinel Hub"
   },
   {
     img: "/images/skills/tailwind.png",
@@ -171,110 +129,52 @@ export const SKILLS = [
     img: "/images/skills/cpp.png",
     title: "CPP"
   },
-  {
-    img: "/images/skills/maya.png",
-    title: "AutoDesk Maya"
-  }
 ]
 export const EDUCATION_DATA = [
   {
-    title: "Master of Science In Computer Science",
-    date: "2024-Present",
+    title: "Bachelor of Science In Computer Science",
+    date: "2022-2026",
     location: "COMSATS University Islamabad(CUI), Lahore Campus",
     icon: React.createElement(LuGraduationCap),
-    info: "Relevant Courses included Advance Computer Vision, Pattern Recognition, Machine Learning and AI.",
+    info: "Relevant Courses included Computer Vision, Object Oriented Programming, Data Structures, Machine Learning and AI.",
   },
   {
-    title: "Bachelor of Science In Computer Science",
-    date: "2020-2024",
-    location: "COMSATS University Islamabad(CUI), Lahore Campus",
+    title: "Intermediate",
+    date: "2019-2021",
+    location: "Punjab Group of Colleges(PGC), Lahore",
     icon: React.createElement(LuGraduationCap),
-    info: "Relevant Courses included Data Structures and Algorithms, Computer Vision and Artificial Intelligence.",
+    info: "Completed pre-Medical with focus on Biology, Physics, and Chemistry.",
   },
-  // {
-  //   title: "B.Sc-Mathematics",
-  //   date: "2017-2018",
-  //   location: "University of Punjab, Lahore",
-  //   icon: React.createElement(LuGraduationCap),
-  //   info: "Relevant Courses included Calculus, Mechanics and Mathematical Method.",
-  // },
-  // {
-  //   title: "F.Sc(pre-engineering)",
-  //   date: "2015-2016",
-  //   location: "Punjab Group of Colleges(PGC), New Muslim Town Lahore",
-  //   icon: React.createElement(LuGraduationCap),
-  //   info: "Relevant Courses included Chemistry, Physics and Mathematics.",
-  // },
-  // {
-  //   title: "Matric",
-  //   date: "2013-2014",
-  //   location: "Al-Farabi High School",
-  //   icon: React.createElement(LuGraduationCap),
-  //   info: "Relevant Courses included Biology, Chemistry, Physics and Mathematics.",
-  // },
+]
+export const CERTIFICATIONS_DATA = [
+  {
+    title: "CCNA: Introduction to Networks",
+    issuer: "Cisco",
+    image: "/images/skills/ccna.png",
+    verifyLink: "https://www.credly.com/badges/e478d740-af44-451f-9da7-9813cc53b2ea",
+    description: "Comprehensive certification covering networking fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability."
+  },
+  {
+    title: "Docker Essentials: A Developer Introduction",
+    issuer: "IBM",
+    image: "/images/skills/ibm.png",
+    verifyLink: "https://www.credly.com/badges/63695438-cc9e-46eb-a6d4-ea34323547e7/linked_in_profile",
+    description: "Hands-on certification demonstrating proficiency in Docker containerization, including building, deploying, and managing containerized applications."
+  },
 ]
 export const EXPERIENCE_DATA: ExperienceProps[] = [
   {
-    id: 'SmartAISolutions',
-    title: "Software Engineer",
-    company: "Smart A & I Solutions",
-    label: 'SmartAISolutions',
-    period: "Sep 2025 - present",
+    id: 'Freelance',
+    title: "Freelance Web Developer",
+    company: "Freelancer & Upwork",
+    label: 'Freelance',
+    period: "Jan 2025 - Present",
+    duration: "1 Year",
     details: [
-      "Led multiple projects and development teams, overseeing task planning, execution, and delivery.",
-      "Drove LLM integration in production web applications using LangGraph, enabling intelligent and scalable AI workflows.",
-      "Architected and delivered full-stack solutions using Python (FastAPI) and Next.js, with active PR reviews and technical mentorship."
-    ]
-  },
-  {
-    id: 'VitalGreen',
-    title: " Web Developer",
-    company: "Vital Green Ltd.",
-    label: 'VitalGreen',
-    period: "Jan 2023 - Aug 2025",
-    duration: "2 Year 8 months",
-    details: [
-      "Engaged as a NextJS developer, contributing to the development of robust system for agriculture monitoring solutions.",
-      "Leading the transformation of Crop-Sight into a practical agriculture monitoring product, focusing on revolutionizing farming practices in Pakistan through technology.",
-      "Specializing in precision farming techniques using utilizing machine learning, satellite imagery and remote sensing for farm management, crop monitoring, yield estimation, and resource optimization."
-    ]
-  },
-  {
-    id: 'LabEngineer',
-    title: "Lab Engineer",
-    company: "UMT",
-    label: 'UMT',
-    period: "Jun 2024 - Jul 2025",
-    duration: "1 Year 2 months",
-    details: [
-      "Conducted and instructed programming and Web technologies labs for undergraduate Computer Science students at UMT.",
-      "Educated students on contemporary technology trends and their practical applications.",
-      "Supported the academic development of students in the School of Systems and Technology, Department of Computer Science."
-    ]
-  },
-  {
-    id: 'LogicFinder',
-    title: "Full Stack Developer",
-    company: "Logic Finder",
-    label: 'LogicFinder',
-    period: "Mar 2025 - Jun 2025",
-    duration: "4 months",
-    details: [
-      "Developed and optimized Network Fort , a cybersecurity dashboard, using NextJS and SSE for real-time threat visualization.",
-      "Designed secure REST APIs with Elasticsearch integration to enhance threat detection efficiency.",
-    ]
-  },
-  {
-    id: 'RA',
-    title: "Research Associate",
-    company: "COMSATS",
-    label: 'COMSATS',
-    period: "Feb 2024 - Jun 2025",
-    duration: "1 Year 5 months",
-    details: [
-      "Delivered comprehensive lab sessions on C++ programming and Operating Systems to undergraduate students in Computer Science and Software Engineering.",
-      "Developed lab exercises and instructional materials, aligning with academic standards and industry practices.",
-      "Mentored students individually, providing personalized guidance to promote academic excellence."
+      "Developed and delivered custom web applications for clients worldwide using Next.js, React, and the MERN stack.",
+      "Collaborated with clients to understand requirements, provide technical solutions, and ensure timely project delivery.",
+      "Built responsive, scalable full-stack applications with modern technologies including FastAPI, MongoDB, and Tailwind CSS.",
+      "Maintained high client satisfaction through effective communication and quality code delivery."
     ]
   },
 ];

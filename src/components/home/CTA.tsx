@@ -21,7 +21,7 @@ export const CTA = () => {
                             src="/images/profile/developer-pic.png"
                             width={70}
                             height={100}
-                            alt="Junaid"
+                            alt="Anas Fida"
                             className="w-full h-auto rounded-full md:hidden inline-block lg:inline-block"
                             priority
                             sizes="(max-width: 768px) 100vm,(max-width:1200px) 50vm, 50vm"
@@ -33,17 +33,15 @@ export const CTA = () => {
                             className="!text-left !font-medium sm:!text-base !text-sm"
                         />
                         <AnimatedText
-                            text="Junaid Ali"
+                            text="Anas Fida"
                             className="xl:!text-6xl lg:!text-left lg:!text-5xl !text-center md:!text-6xl sm:!text-5xl !text-4xl"
                         />
                         <p className="my-4 md:text-base font-medium sm:text-sm text-xs text-justify">
-                            I am a Computer Scientist with over 3 years of experience in various domains.
-                            My expertise includes web and mobile app development, Machine Learning, AI, and computer vision.
-                            I have also contributed to research projects.
+                            Hi, I'm a passionate web developer with expertise in Next.js and the MERN stack. I've worked on multiple small-scale projects with my university fellows, building full-stack web applications and even cloning a mobile application. Beyond web development, I have a strong interest in Generative AI and Machine Learning. Currently, I'm working on my final year project, where Python and FastAPI have become my go-to technologies. I love solving complex problems, optimizing performance, and staying up-to-date with the latest tech trends. Excited about innovation, open-source contributions, and building impactful digital experiences!
                         </p>
                         <div className="flex items-center lg:self-start mt-2 self-center">
                             <Link
-                                href="/Junaid's Resume.pdf"
+                                href="/Anas_Fida_Resume.pdf"
                                 target={"_blank"}
                                 className="flex items-center bg-dark text-light md:p-2.5 md:px-6 
                                 rounded-lg md:text-lg font-semibold
@@ -57,7 +55,7 @@ export const CTA = () => {
                                 <LuExternalLink size={20} />
                             </Link>
                             <Link
-                                href="mailto:junaid.ali101452@gmail.com"
+                                href="mailto:anasfida89@gmail.com"
                                 target={"_blank"}
                                 className="ml-4 md:text-lg font-medium underline capitalize text-dark dark:text-light text-base"
                             >

@@ -13,20 +13,13 @@ export const Footer = () => {
                     </span>
                     by&nbsp;
                     <Link
-                        href="https://www.instagram.com/junaid.ali1014/"
+                        href="https://github.com/Elseif-anas"
                         className="underline underline-offset-2"
                         target={"_blank"}
                     >
-                        Junaid Ali Bhatti
+                        Anas Fida
                     </Link>
                 </div>
-                {/* <Link
-                    href="https://www.instagram.com/junaid.ali1014/"
-                    className="underline underline-offset-2"
-                    target={"_blank"}
-                >
-                    Say hello
-                </Link> */}
             </Layout>
         </footer>
     );

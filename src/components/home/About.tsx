@@ -1,5 +1,5 @@
 "use client";
-import { Education, Experience, Layout, Skills } from "@/components";
+import { Certifications, Education, Experience, Layout, Skills } from "@/components";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 
@@ -29,8 +29,8 @@ const AnimateNumber = ({ value }: { value: number }) => {
 
 export const About = () => {
     const data = [
-        { value: 150, text: "satisfied clients" },
-        { value: 50, text: "projects completed" },
+        { value: 20, text: "satisfied clients" },
+        { value: 25, text: "projects completed" },
         { value: 3, text: "years of experience" },
     ];
     return (
@@ -56,6 +56,7 @@ export const About = () => {
                 <Skills />
                 <Experience />
                 <Education />
+                <Certifications />
             </Layout>
         </section>
     );

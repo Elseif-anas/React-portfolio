@@ -10,8 +10,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Junaid Ali Bhatti",
-  description: "Software Developer",
+  title: "Anas Fida",
+  description: "Web Developer | Next.js & MERN Stack | Generative AI Enthusiast",
 };
 
 export default function RootLayout({
