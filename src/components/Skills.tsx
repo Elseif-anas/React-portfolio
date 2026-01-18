@@ -52,8 +52,8 @@ export const Skills = () => {
             />
             <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-9 gap-8 mt-4'>
                 {SKILLS.map(
-                    ({ img, imgDark, title }, i) => {
-                        const imageSrc = mounted && imgDark && themeMode === "dark" ? imgDark : img;
+                    (skill, i) => {
+                        const imageSrc = mounted && (skill as any).imgDark && themeMode === "dark" ? (skill as any).imgDark : skill.img;
                         return (
                             <motion.div key={i}
                                 variants={fadeInAnimationVariants}
@@ -69,10 +69,10 @@ export const Skills = () => {
                                     <Image src={imageSrc}
                                         width={1000} height={1000}
                                         className="w-16 h-16"
-                                        alt={title} />
+                                        alt={skill.title} />
                                 </div>
                                 <div className='flex items-center justify-center text-center'>
-                                    <h3>{title}</h3>
+                                    <h3>{skill.title}</h3>
                                 </div>
                             </motion.div>
                         );
